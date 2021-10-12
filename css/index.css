@@ -1,174 +1,226 @@
-body {
-    background-color:  hsl(300, 24%, 96%)
-}
+        body {
+            background-color:  hsl(300, 24%, 96%)
+        }
 
-.profsection {
-    background-color: white;
-    background-image: url(/images/bg-pattern-top-desktop.svg);
-    background-size: 700px;
-    background-repeat: no-repeat;
-    margin-bottom: 120px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    margin-top: 120px;
-    width: 1440px;
-    margin: 90px;
-    padding-bottom: 20px;
-}
+        .profsection {
+            background-color: white;
+            background-image: url(/images/bg-pattern-top-desktop.svg);
+            background-size: 700px;
+            background-repeat: no-repeat;
+            margin-bottom: 120px;
+            align-items: center;
+            display: flex;
+            flex-direction: column;
+            margin-top: 120px;
+            width: 1440px;
+            margin: 90px;
+            padding-bottom: 20px;
+        }
 
-.description {
-    display: grid;
-    grid-template-columns: 50% 50%;
-    color: hsl(303, 10%, 53%); 
-}
+        .description {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            color: hsl(303, 10%, 53%); 
+        }
 
-h1 {
-   
-    font-family: 'Spartan' , sans-serif;
-    font-weight: 700;
-    color: hsl(300, 43%, 22%) ;
-    
-} 
+        h1 {
+        
+            font-family: 'Spartan' , sans-serif;
+            font-weight: 700;
+            color: hsl(300, 43%, 22%) ;
+            
+        } 
 
-.about {
-    font-family: 'Spartan' , sans-serif;
-    font-weight: 700;
-    font-size: 15px;
+        .about {
+            font-family: 'Spartan' , sans-serif;
+            font-weight: 700;
+            font-size: 15px;
 
-}
+        }
 
-.texts{
-    grid-column: 1/span 1; 
-    padding: 90px; 
-}
+        .texts{
+            grid-column: 1/span 1; 
+            padding: 90px; 
+        }
 
-.stars {
-    display: flex;
-    flex-direction: column;
-    grid-column: 2/span 1; 
-    padding: 90px;
-    color:  hsl(300, 43%, 22%); 
-    font-weight: 700;
-    font-family: 'Spartan', sans-serif;
-}
-
-
-.iconstar {
-    padding: 2px;
-}
+        .stars {
+            display: flex;
+            flex-direction: column;
+            grid-column: 2/span 1; 
+            padding: 90px;
+            color:  hsl(300, 43%, 22%); 
+            font-weight: 700;
+            font-family: 'Spartan', sans-serif;
+        }
 
 
-
-.starone {
-    display: flex;
-    align-items: center;
-    margin-top: 30px;
-    margin-bottom:20px;
-    height: 47px;
-    text-align: center;
-    background-color: hsl(300, 24%, 96%);
-    width: 490px;
-
-
-}
-
-.startwo {
-    display: flex;
-    align-items: center;
-    height: 47px;
-    text-align: center;
-    background-color: hsl(300, 24%, 96%);
-    margin-bottom: 15px;
-    margin-left: 80px;
-    width: 450px;
-
-}
-.starthree {
-    display: flex;
-    align-items: center;
-    background-color: hsl(300, 24%, 96%);
-    text-align: center;
-    height: 47px;
-    margin-left: 120px;
-    width: 480px;
-
-}
-.stars-container {
-    padding-left: 20px;
-    margin-right: 25px;
-}
-
-.users {
-    display: flex;
-    border-radius: 40px;
-    align-items: center;
-    width: 1300px;
-}
-
-.username {
-    display: flex;
-    align-items: center;
-
-}
-
-.userinfo {
-    margin-top: 40px;
-    margin-left: 20px;
-}
-
-.name {
-    font-family: 'Spartan' , sans-serif;
-
-}
-
-.verified{
-    font-family: 'Spartan' , sans-serif;
-    color: hsl(300, 80%, 67%);
-
-}
-
-.avatar {
-    border-radius: 50%;
-    width: 60px;
-    margin-left: 20px; 
-}
-
-
-.person {
-    background-color:  hsl(300, 43%, 22%);
-    color:white;
-    margin-left: 20px;
-    margin-right: 40px;
-    padding: 25px;
-    height: 200px;
-    border-radius: 10px;
-}
-
-.user-info {
-    margin: 20px;
-    font-family: 'Spartan' sans-serif;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.feedback {
-    margin-left: 20px;
-    font-family: 'Spartan' , sans-serif;
-    margin-top: 20px;
-    font-weight: 500;
-    font-size: 15px;
-}
-
-.persontwo {
-    margin-top:20px;
-
-
-}
-
-.personthree {
-    margin-top: 40px;
-}
+        .iconstar {
+            padding: 2px;
+        }
 
 
 
+        .starone {
+            display: flex;
+            align-items: center;
+            margin-top: 30px;
+            margin-bottom:20px;
+            height: 47px;
+            text-align: center;
+            background-color: hsl(300, 24%, 96%);
+            width: 100;
+
+
+        }
+
+        .startwo {
+            display: flex;
+            align-items: center;
+            height: 47px;
+            text-align: center;
+            background-color: hsl(300, 24%, 96%);
+            margin-bottom: 15px;
+            margin-left: 80px;
+            width: 100%;
+
+        }
+        .starthree {
+            display: flex;
+            align-items: center;
+            background-color: hsl(300, 24%, 96%);
+            text-align: center;
+            height: 47px;
+            margin-left: 120px;
+            width:100%;
+
+        }
+        .stars-container {
+            padding-left: 20px;
+            margin-right: 25px;
+        }
+
+        .users {
+            display: flex;
+            border-radius: 40px;
+            align-items: center;
+            width: 100%;
+        }
+
+        .username {
+            display: flex;
+            align-items: center;
+
+        }
+
+        .userinfo {
+            margin-top: 40px;
+            margin-left: 20px;
+        }
+
+        .name {
+            font-family: 'Spartan' , sans-serif;
+
+        }
+
+        .verified{
+            font-family: 'Spartan' , sans-serif;
+            color: hsl(300, 80%, 67%);
+
+        }
+
+        .avatar {
+            border-radius: 50%;
+            width: 60px;
+            margin-left: 20px; 
+        }
+
+
+        .person {
+            background-color:  hsl(300, 43%, 22%);
+            color:white;
+            margin-left: 20px;
+            margin-right: 40px;
+            padding: 25px;
+            height: 200px;
+            border-radius: 10px;
+        }
+
+        .user-info {
+            margin: 20px;
+            font-family: 'Spartan' sans-serif;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .feedback {
+            margin-left: 20px;
+            font-family: 'Spartan' , sans-serif;
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 15px;
+        }
+
+        .persontwo {
+            margin-top:20px;
+
+
+        }
+
+        .personthree {
+            margin-top: 40px;
+        }
+
+        @media (max-width: 375px) { 
+
+            body {
+                background-color: transparent;
+                width: 100%;
+            }
+
+            .profsection { 
+            background-image: url(/images/bg-pattern-bottom-mobile.svg);
+            width: 100%; 
+            margin: 0px;
+        
+            } 
+
+            .description {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                height: 490px;
+            
+            }
+            .texts {
+                text-align: center;
+                padding: 0px;
+                padding-bottom: 100px;
+
+            }
+
+            .stars {
+                width: 349px;
+                margin: 0px;
+                padding: 0px;
+            }
+
+            .users {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                padding-top: 180px;
+            }
+            .about{
+                text-align: center;
+            }
+
+            .star {
+                margin: 10px 2px;
+                flex-direction: column;
+            } 
+            .stars-container  {
+
+
+            }
+            
+        }
